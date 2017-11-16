@@ -1,0 +1,213 @@
+header{
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	background: rgba(0,0,0,.3);
+	z-index: 999;
+}
+header .head{
+	width: 1220px;
+	height: 80px;
+	/*background: #ddd;*/
+	margin: 0 auto;
+}
+header img{
+	position: relative;
+	width: 163px;
+	height: 45px;
+	vertical-align: middle;
+	margin:17.5px 50px 0 0px;
+}
+header .head>ul{
+	/*display: inline-block;*/
+	position: relative;
+	width: 800px;
+	height: 80px;
+	margin: 0 60px 0 0;
+}
+header .head>ul>li{
+	width: 100px;
+	height: 80px;
+	box-sizing:border-box;
+	text-align: center;
+	line-height: 80px;
+	font-size: 14px;
+	color: #efefef;
+	/*background: #ccc;*/
+
+}
+header .head>ul>li:hover{
+	border-bottom: 3px solid #fff;
+}
+header input{
+	position: relative;
+	width: 50px;
+	height: 30px;
+	color: #efefef;
+	background: #ccc;
+	margin: 25px 10px 0 10px;
+}
+
+
+nav{
+	position: relative;
+	width: 1350px;
+	height: 650px;
+	overflow: hidden;
+	background: #f2f2f2;
+	margin: 0 auto;
+}
+nav .ban{
+	position: relative;
+	width: auto;
+	height: 510px;
+	/*background: #ccc;*/
+	left: 0;
+	transition: all .5s;
+}
+nav .ban li{
+	width: 1350px;
+	height: 510px;
+ 
+}
+nav .nav{
+	position: absolute;
+	width: 130px;
+	height: 15px;
+	line-height: 15px;
+	bottom: 150px;
+	z-index: 999;
+	/*padding: 0px;*/
+	/*background: red;*/
+}
+nav .nav li{
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	border-radius: 50%;
+	background: #fff;
+}
+nav .nav .focusOn{
+	background: #898989;
+	border: 1px solid #efefef;
+}
+nav .servers{
+	position: relative;
+	width: 1200px;
+	height: 140px;
+	background: yellow;
+	margin: 0 auto;
+	bottom: 0;
+}
+nav .servers>ul{
+	width: 1200px;
+	height: 140px;
+	background: blue;
+}
+nav .servers>ul>li{
+	position: relative;
+	width: 300px;
+	height: 140px;
+	margin: 0;
+	padding: 0;
+	background: #ccc;
+}
+nav .servers>ul>li span{
+	position: absolute;
+	font-size: 14px;
+	color: #232323;
+	bottom: 40px;
+	left: 100px;
+}
+
+
+.banner{
+	width: 1200px;
+	height: 460px;
+	background: #fff;
+	padding-top: 40px;
+	margin: 0 auto;
+}
+.banner>h1{
+	color: #333;
+}
+.banner>h2{
+	color: #80b2e8;
+	margin: 15px 0 20px 0;
+}
+
+.banner .server{
+	width: 1200px;
+	height: 360px;
+	margin: 0 auto;
+	background: #fff;
+}
+.banner .server li{
+	width: 200px;
+	height: 360px;
+	background: #fff;
+	text-align: center;
+}
+/*fafafa
+ffc100*/
+.banner .server li:hover{
+	background: #fafafa;
+}
+.banner .server li h2{
+	color: #333;
+}
+.banner .server li h3{
+	margin: 20px 0;
+	font-weight: normal;
+	color: #666;
+}
+.banner .server li img{
+	margin: 50px 0 20px 0;
+}
+.banner .server li a{
+	color: #ffc100;
+}
+
+
+.serverSafe{
+	width: 100%;
+	height: 580px;
+
+}
+.serverSafe .serSafeWay{
+	width: 1200px;
+	height: 420px;
+	background: #ccc;
+	margin: 0 auto;
+}
+.serverSafe .serSafeWay>ul{
+	width: 190px;
+	height: 420px;
+	padding: 20px 0;
+}
+.serverSafe .serSafeWay>ul>li{
+	float: none;
+	width: 150px;
+	height: 50px;
+	margin: 5px auto;
+	text-align: center;
+	line-height: 50px;
+	background: #aaa;
+}
+.serverSafe .serSafeWay>ul>li:hover{
+	background: url(../img/073.jpeg) no-repeat center;
+}
+.serverSafe .serSafeWay .serBlock{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
